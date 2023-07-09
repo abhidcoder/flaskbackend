@@ -12,6 +12,7 @@ CORS(app, origins=['http://localhost:3000'])
 #pip install pymongo
 #pip install flask_cors
 #pip install dnspython
+#pip install -r requirements.txt
 
 client = MongoClient('mongodb+srv://Firedrakesin:Garubb66@cluster0.iodwiy3.mongodb.net/')
 db = client['Book-Store']
